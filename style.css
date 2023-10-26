@@ -1,11 +1,15 @@
+/* Assignment 1 - A starts here */
 .card {
-    background-color: #1FE592;
     margin: 50px auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 100px 40px;
     width: 500px;
     border: 1px solid #E0E1E4;
     border-radius: 12px;
+}
+
+.bg-color {
+    background-color: #1FE592;
 }
 
 .card-header {
@@ -24,3 +28,147 @@
     margin-top: 20px;
     margin-bottom: 10px;
 }
+/* Assignment 1 - A ends here */
+
+/* Assignment 1 - B starts here */
+.profile-card {
+    padding: 20px 0;
+    width: 580px;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 100%;
+    height: 100px;
+    max-width: 100px;
+    margin: 40px 60px;
+}
+
+.profile-card-header, 
+.profile-card-text,
+.profile-card-link {
+    padding: 0 40px;
+}
+
+.profile-card-header {
+    font-size: 31px;
+    font-weight: normal;
+    color: #202124;
+}
+
+.profile-card-text {
+    font-size: 21px;
+    color: #5F6367;
+}
+
+.profile-card-link {
+    border-top: 1px solid #E0E1E4;
+    padding: 40px 40px 10px;
+}
+
+.profile-card-link a {
+    color: #2D7CEA;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Assignment 1 - B ends here */
+
+/* Assignment 1 - C starts here */
+.more-features {
+    padding: 0;
+    width: 580px;
+}
+
+.more-features-pxy {
+    padding: 20px 40px 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.more-feautes-img {
+    width: 100%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.subscribe-icon {
+    color: #7D8083;
+}
+
+.more-features-header {
+    font-size: 34px;
+    font-weight: normal;
+    color: #202124;
+}
+
+.more-features-text {
+    font-size: 27px;
+    color: #7D8083;
+}
+
+.profile-card-btn {
+    color: #1E76E8;
+    border: 1px solid #E0E1E4;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Assignment 1 - C ends here */
+
+/* Assignment 1 - D starts here */
+.sign-in {
+    text-align: center;
+    border: 0;
+    border-top: 2px solid black;
+    border-radius: 0;
+}
+
+.signin-header {
+    font-size: 60px;
+    font-style: italic;
+    margin: 0;
+}
+
+.signin-text {
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.input {
+    width: 100%;
+    padding: 17px 25px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 11px;
+    border: 1px solid #E9E9E9;
+    margin-bottom: 20px;
+}
+
+.sign-in-link,
+.signin-terms-link {
+    color: #5F6367;
+}
+
+.signin-terms-link {
+    width: 320px;
+    margin: 40px auto;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.login-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 60px;
+}
+
+.link {
+    color: #000;
+}
+
+/* Assignment 1 - D ends here */
